@@ -62,7 +62,6 @@
   "optionalDependencies": {
   },
   "files": [
-    "LICENSE",  "CONTRIBUTING.md", "package.json", "README.md", "couchbase-sdk-nodejs-black-duck-manifest.yaml", "dist/*.{t,j}s", "tools/*.{py,js}", "scripts/*.js",
-
+    "LICENSE",  "CONTRIBUTING.md", "package.json", "README.md", "couchbase-sdk-nodejs-black-duck-manifest.yaml", "dist/*.{t,j}s", "tools/*.{py,js}", "scripts/*.js"
   ]
 }
