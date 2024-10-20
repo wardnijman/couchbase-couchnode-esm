@@ -59,7 +59,7 @@
     "native": false
   },
   "scripts": {
-    "install": "if [ ! -d ./dist/couchbase.js ]; then node ./scripts/install.js; fi",
+    "install": "if [ ! -f ./dist/couchbase.js ]; then node ./scripts/install.js; fi",
     "build": "cmake-js build && tsc",
     "rebuild": "cmake-js rebuild && tsc",
     "prebuild": "node ./scripts/buildPrebuild.js",
