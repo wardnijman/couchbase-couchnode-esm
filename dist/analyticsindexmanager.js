@@ -10,6 +10,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var AnalyticsLinkType;
 export { AnalyticsLinkType; };
+export { AnalyticsLinkType; };
 (function (AnalyticsLinkType) {
     /**
      * Indicates that the link is for S3.
@@ -30,6 +31,7 @@ export { AnalyticsLinkType; };
  * @category Analytics
  */
 var AnalyticsEncryptionLevel;
+export { AnalyticsEncryptionLevel; };
 export { AnalyticsEncryptionLevel; };
 (function (AnalyticsEncryptionLevel) {
     /**

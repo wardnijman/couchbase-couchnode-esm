@@ -7,6 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var AnalyticsStatus;
 export { AnalyticsStatus; };
+export { AnalyticsStatus; };
 (function (AnalyticsStatus) {
     /**
      * Indicates the query is still running.
@@ -123,6 +124,7 @@ class AnalyticsMetrics {
  * @category Analytics
  */
 var AnalyticsScanConsistency;
+export { AnalyticsScanConsistency; };
 export { AnalyticsScanConsistency; };
 (function (AnalyticsScanConsistency) {
     /**

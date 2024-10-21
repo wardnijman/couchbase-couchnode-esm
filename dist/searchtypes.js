@@ -42,6 +42,7 @@ class SearchResult {
  */
 var HighlightStyle;
 export { HighlightStyle; };
+export { HighlightStyle; };
 (function (HighlightStyle) {
     /**
      * Indicates that matches should be highlighted using HTML tags in the result text.
@@ -59,6 +60,7 @@ export { HighlightStyle; };
  * @category Full Text Search
  */
 var SearchScanConsistency;
+export { SearchScanConsistency; };
 export { SearchScanConsistency; };
 (function (SearchScanConsistency) {
     /**

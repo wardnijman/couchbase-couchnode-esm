@@ -8,6 +8,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var VectorQueryCombination;
 export { VectorQueryCombination; };
+export { VectorQueryCombination; };
 (function (VectorQueryCombination) {
     /**
      * Indicates that multiple vector queries should be combined with logical AND.

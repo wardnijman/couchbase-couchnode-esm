@@ -10,6 +10,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var ConflictResolutionType;
 export { ConflictResolutionType; };
+export { ConflictResolutionType; };
 (function (ConflictResolutionType) {
     /**
      * Indicates that timestamps should be used for conflict resolution.  The most
@@ -36,6 +37,7 @@ export { ConflictResolutionType; };
  */
 var BucketType;
 export { BucketType; };
+export { BucketType; };
 (function (BucketType) {
     /**
      * Indicates the bucket should be a Couchbase bucket.
@@ -57,6 +59,7 @@ export { BucketType; };
  */
 var StorageBackend;
 export { StorageBackend; };
+export { StorageBackend; };
 (function (StorageBackend) {
     /**
      * Indicates the bucket should use the Couchstore storage engine.
@@ -73,6 +76,7 @@ export { StorageBackend; };
  * @category Management
  */
 var EvictionPolicy;
+export { EvictionPolicy; };
 export { EvictionPolicy; };
 (function (EvictionPolicy) {
     /**
@@ -98,6 +102,7 @@ export { EvictionPolicy; };
  * @category Management
  */
 var CompressionMode;
+export { CompressionMode; };
 export { CompressionMode; };
 (function (CompressionMode) {
     /**

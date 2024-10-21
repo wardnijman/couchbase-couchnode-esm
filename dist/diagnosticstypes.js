@@ -7,6 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var EndpointState;
 export { EndpointState; };
+export { EndpointState; };
 (function (EndpointState) {
     /**
      * Indicates the endpoint is disconnected.
@@ -29,6 +30,7 @@ export { EndpointState; };
  * Represents the status of an an endpoint in a ping report.
  */
 var PingState;
+export { PingState; };
 export { PingState; };
 (function (PingState) {
     /**

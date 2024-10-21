@@ -9,6 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var MatchOperator;
 export { MatchOperator; };
+export { MatchOperator; };
 (function (MatchOperator) {
     /**
      * Specifies that individual match terms are concatenated with a logical OR - this is the default if not provided.

@@ -40,6 +40,7 @@ const errs = __importStar(errors);
  */
 var EventingFunctionDcpBoundary;
 export { EventingFunctionDcpBoundary; };
+export { EventingFunctionDcpBoundary; };
 (function (EventingFunctionDcpBoundary) {
     /**
      * Indicates all documents should be processed by the function.
@@ -58,6 +59,7 @@ export { EventingFunctionDcpBoundary; };
  */
 var EventingFunctionDeploymentStatus;
 export { EventingFunctionDeploymentStatus; };
+export { EventingFunctionDeploymentStatus; };
 (function (EventingFunctionDeploymentStatus) {
     /**
      * Indicates that the function is deployed.
@@ -75,6 +77,7 @@ export { EventingFunctionDeploymentStatus; };
  */
 var EventingFunctionProcessingStatus;
 export { EventingFunctionProcessingStatus; };
+export { EventingFunctionProcessingStatus; };
 (function (EventingFunctionProcessingStatus) {
     /**
      * Indicates that the eventing function is currently running.
@@ -91,6 +94,7 @@ export { EventingFunctionProcessingStatus; };
  * @category Management
  */
 var EventingFunctionStatus;
+export { EventingFunctionStatus; };
 export { EventingFunctionStatus; };
 (function (EventingFunctionStatus) {
     /**
@@ -125,6 +129,7 @@ export { EventingFunctionStatus; };
  */
 var EventingFunctionLanguageCompatibility;
 export { EventingFunctionLanguageCompatibility; };
+export { EventingFunctionLanguageCompatibility; };
 (function (EventingFunctionLanguageCompatibility) {
     /**
      * Indicates that the function should run with compatibility with
@@ -153,6 +158,7 @@ export { EventingFunctionLanguageCompatibility; };
  * @category Management
  */
 var EventingFunctionLogLevel;
+export { EventingFunctionLogLevel; };
 export { EventingFunctionLogLevel; };
 (function (EventingFunctionLogLevel) {
     /**
@@ -183,6 +189,7 @@ export { EventingFunctionLogLevel; };
  */
 var EventingFunctionBucketAccess;
 export { EventingFunctionBucketAccess; };
+export { EventingFunctionBucketAccess; };
 (function (EventingFunctionBucketAccess) {
     /**
      * Indicates that the function can only read the associated bucket.
@@ -199,6 +206,7 @@ export { EventingFunctionBucketAccess; };
  * @category Management
  */
 var EventingFunctionUrlAuthMethod;
+export { EventingFunctionUrlAuthMethod; };
 export { EventingFunctionUrlAuthMethod; };
 (function (EventingFunctionUrlAuthMethod) {
     /**
