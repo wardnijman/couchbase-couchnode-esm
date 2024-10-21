@@ -43,6 +43,7 @@ const events = __importStar(events$0);
  * @internal
  */
 var HttpServiceType;
+export { HttpServiceType; };
 (function (HttpServiceType) {
     HttpServiceType["Management"] = "MGMT";
     HttpServiceType["Views"] = "VIEW";
@@ -55,6 +56,7 @@ var HttpServiceType;
  * @internal
  */
 var HttpMethod;
+export { HttpMethod; };
 (function (HttpMethod) {
     HttpMethod["Get"] = "GET";
     HttpMethod["Post"] = "POST";

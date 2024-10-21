@@ -41,6 +41,7 @@ class SearchResult {
  * @category Full Text Search
  */
 var HighlightStyle;
+export { HighlightStyle; };
 (function (HighlightStyle) {
     /**
      * Indicates that matches should be highlighted using HTML tags in the result text.
@@ -58,6 +59,7 @@ var HighlightStyle;
  * @category Full Text Search
  */
 var SearchScanConsistency;
+export { SearchScanConsistency; };
 (function (SearchScanConsistency) {
     /**
      * Indicates that no specific consistency is required, this is the fastest

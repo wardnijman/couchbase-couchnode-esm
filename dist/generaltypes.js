@@ -4,6 +4,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * Represents the various service types available.
  */
 var ServiceType;
+export { ServiceType; };
 (function (ServiceType) {
     /**
      * The key-value service, responsible for data storage.
@@ -38,6 +39,7 @@ var ServiceType;
  * Represents the durability level required for an operation.
  */
 var DurabilityLevel;
+export { DurabilityLevel; };
 (function (DurabilityLevel) {
     /**
      * Indicates that no durability is needed.
@@ -64,6 +66,7 @@ var DurabilityLevel;
  * Represents the storage semantics to use for some types of operations.
  */
 var StoreSemantics;
+export { StoreSemantics; };
 (function (StoreSemantics) {
     /**
      * Indicates that replace semantics should be used.  This will replace

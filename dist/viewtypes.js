@@ -58,6 +58,7 @@ class ViewRow {
  * @category Views
  */
 var DesignDocumentNamespace;
+export { DesignDocumentNamespace; };
 (function (DesignDocumentNamespace) {
     /**
      * Indicates that the Design Document namespace is within the development environment.
@@ -75,6 +76,7 @@ var DesignDocumentNamespace;
  * @category Views
  */
 var ViewScanConsistency;
+export { ViewScanConsistency; };
 (function (ViewScanConsistency) {
     /**
      * Indicates that no specific consistency is required, this is the fastest
@@ -103,6 +105,7 @@ var ViewScanConsistency;
  * @category Views
  */
 var ViewOrdering;
+export { ViewOrdering; };
 (function (ViewOrdering) {
     /**
      * Indicates that results should be returned in ascending order.
@@ -119,6 +122,7 @@ var ViewOrdering;
  * @category Views
  */
 var ViewErrorMode;
+export { ViewErrorMode; };
 (function (ViewErrorMode) {
     /**
      * Indicates that if an error occurs during the execution of the view query,

@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @category Query
  */
 var QueryStatus;
+export { QueryStatus; };
 (function (QueryStatus) {
     /**
      * Indicates the query is still running.
@@ -123,6 +124,7 @@ class QueryMetrics {
  * @category Query
  */
 var QueryProfileMode;
+export { QueryProfileMode; };
 (function (QueryProfileMode) {
     /**
      * Disables the generation of profiling data.
@@ -144,6 +146,7 @@ var QueryProfileMode;
  * @category Query
  */
 var QueryScanConsistency;
+export { QueryScanConsistency; };
 (function (QueryScanConsistency) {
     /**
      * Indicates that no specific consistency is required, this is the fastest
@@ -165,3 +168,4 @@ export { QueryResult };
 export { QueryMetaData };
 export { QueryWarning };
 export { QueryMetrics };
+

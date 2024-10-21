@@ -8,6 +8,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @category Full Text Search
  */
 var MatchOperator;
+export { MatchOperator; };
 (function (MatchOperator) {
     /**
      * Specifies that individual match terms are concatenated with a logical OR - this is the default if not provided.

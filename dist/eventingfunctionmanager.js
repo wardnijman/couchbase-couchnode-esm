@@ -39,6 +39,7 @@ const errs = __importStar(errors);
  * @category Management
  */
 var EventingFunctionDcpBoundary;
+export { EventingFunctionDcpBoundary; };
 (function (EventingFunctionDcpBoundary) {
     /**
      * Indicates all documents should be processed by the function.
@@ -56,6 +57,7 @@ var EventingFunctionDcpBoundary;
  * @category Management
  */
 var EventingFunctionDeploymentStatus;
+export { EventingFunctionDeploymentStatus; };
 (function (EventingFunctionDeploymentStatus) {
     /**
      * Indicates that the function is deployed.
@@ -72,6 +74,7 @@ var EventingFunctionDeploymentStatus;
  * @category Management
  */
 var EventingFunctionProcessingStatus;
+export { EventingFunctionProcessingStatus; };
 (function (EventingFunctionProcessingStatus) {
     /**
      * Indicates that the eventing function is currently running.
@@ -88,6 +91,7 @@ var EventingFunctionProcessingStatus;
  * @category Management
  */
 var EventingFunctionStatus;
+export { EventingFunctionStatus; };
 (function (EventingFunctionStatus) {
     /**
      * Indicates that the eventing function is undeployed.
@@ -120,6 +124,7 @@ var EventingFunctionStatus;
  * @category Management
  */
 var EventingFunctionLanguageCompatibility;
+export { EventingFunctionLanguageCompatibility; };
 (function (EventingFunctionLanguageCompatibility) {
     /**
      * Indicates that the function should run with compatibility with
@@ -148,6 +153,7 @@ var EventingFunctionLanguageCompatibility;
  * @category Management
  */
 var EventingFunctionLogLevel;
+export { EventingFunctionLogLevel; };
 (function (EventingFunctionLogLevel) {
     /**
      * Indicates to use INFO level logging.
@@ -176,6 +182,7 @@ var EventingFunctionLogLevel;
  * @category Management
  */
 var EventingFunctionBucketAccess;
+export { EventingFunctionBucketAccess; };
 (function (EventingFunctionBucketAccess) {
     /**
      * Indicates that the function can only read the associated bucket.
@@ -192,6 +199,7 @@ var EventingFunctionBucketAccess;
  * @category Management
  */
 var EventingFunctionUrlAuthMethod;
+export { EventingFunctionUrlAuthMethod; };
 (function (EventingFunctionUrlAuthMethod) {
     /**
      * Indicates that no authentication should be used.

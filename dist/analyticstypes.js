@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @category Analytics
  */
 var AnalyticsStatus;
+export { AnalyticsStatus; };
 (function (AnalyticsStatus) {
     /**
      * Indicates the query is still running.
@@ -122,6 +123,7 @@ class AnalyticsMetrics {
  * @category Analytics
  */
 var AnalyticsScanConsistency;
+export { AnalyticsScanConsistency; };
 (function (AnalyticsScanConsistency) {
     /**
      * Indicates that no specific consistency is required, this is the fastest
