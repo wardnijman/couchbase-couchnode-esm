@@ -8,8 +8,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @category Full Text Search
  */
 var MatchOperator;
-export { MatchOperator; };
-export { MatchOperator; };
+export { MatchOperator };
 (function (MatchOperator) {
     /**
      * Specifies that individual match terms are concatenated with a logical OR - this is the default if not provided.
@@ -724,24 +723,3 @@ class GeoPolygonSearchQuery extends SearchQuery {
 }
 const MatchOperator$0 = void 0;
 export { MatchOperator$0 as MatchOperator };
-export { SearchQuery };
-export { MatchSearchQuery };
-export { MatchPhraseSearchQuery };
-export { RegexpSearchQuery };
-export { QueryStringSearchQuery };
-export { NumericRangeSearchQuery };
-export { DateRangeSearchQuery };
-export { ConjunctionSearchQuery };
-export { DisjunctionSearchQuery };
-export { BooleanSearchQuery };
-export { WildcardSearchQuery };
-export { DocIdSearchQuery };
-export { BooleanFieldSearchQuery };
-export { TermSearchQuery };
-export { PhraseSearchQuery };
-export { PrefixSearchQuery };
-export { MatchAllSearchQuery };
-export { MatchNoneSearchQuery };
-export { GeoDistanceSearchQuery };
-export { GeoBoundingBoxSearchQuery };
-export { GeoPolygonSearchQuery };

@@ -58,8 +58,7 @@ class ViewRow {
  * @category Views
  */
 var DesignDocumentNamespace;
-export { DesignDocumentNamespace; };
-export { DesignDocumentNamespace; };
+export { DesignDocumentNamespace };
 (function (DesignDocumentNamespace) {
     /**
      * Indicates that the Design Document namespace is within the development environment.
@@ -77,8 +76,6 @@ export { DesignDocumentNamespace; };
  * @category Views
  */
 var ViewScanConsistency;
-export { ViewScanConsistency; };
-export { ViewScanConsistency; };
 (function (ViewScanConsistency) {
     /**
      * Indicates that no specific consistency is required, this is the fastest
@@ -107,8 +104,6 @@ export { ViewScanConsistency; };
  * @category Views
  */
 var ViewOrdering;
-export { ViewOrdering; };
-export { ViewOrdering; };
 (function (ViewOrdering) {
     /**
      * Indicates that results should be returned in ascending order.
@@ -125,8 +120,6 @@ export { ViewOrdering; };
  * @category Views
  */
 var ViewErrorMode;
-export { ViewErrorMode; };
-export { ViewErrorMode; };
 (function (ViewErrorMode) {
     /**
      * Indicates that if an error occurs during the execution of the view query,
@@ -141,5 +134,3 @@ export { ViewErrorMode; };
 })(ViewErrorMode || (exports.ViewErrorMode = ViewErrorMode = {}));
 const ViewResult$0 = void 0;
 export { ViewResult$0 as ViewResult };
-export { ViewMetaData };
-export { ViewRow };

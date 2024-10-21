@@ -127,6 +127,3 @@ class GeoDistanceSearchSort extends SearchSort {
 const SearchSort$0 = void 0;
 export { SearchSort$0 as SearchSort };
 export { ScoreSearchSort };
-export { IdSearchSort };
-export { FieldSearchSort };
-export { GeoDistanceSearchSort };

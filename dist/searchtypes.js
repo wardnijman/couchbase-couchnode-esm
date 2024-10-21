@@ -41,8 +41,7 @@ class SearchResult {
  * @category Full Text Search
  */
 var HighlightStyle;
-export { HighlightStyle; };
-export { HighlightStyle; };
+export { HighlightStyle };
 (function (HighlightStyle) {
     /**
      * Indicates that matches should be highlighted using HTML tags in the result text.
@@ -60,8 +59,6 @@ export { HighlightStyle; };
  * @category Full Text Search
  */
 var SearchScanConsistency;
-export { SearchScanConsistency; };
-export { SearchScanConsistency; };
 (function (SearchScanConsistency) {
     /**
      * Indicates that no specific consistency is required, this is the fastest
@@ -140,6 +137,3 @@ class SearchRequest {
 }
 const SearchMetaData$0 = void 0;
 export { SearchMetaData$0 as SearchMetaData };
-export { SearchRow };
-export { SearchResult };
-export { SearchRequest };

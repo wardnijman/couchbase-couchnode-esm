@@ -301,4 +301,3 @@ class CollectionManager {
 const CollectionSpec$0 = void 0;
 export { CollectionSpec$0 as CollectionSpec };
 export { ScopeSpec };
-export { CollectionManager };

@@ -550,4 +550,3 @@ class QueryIndexManager {
 const QueryIndex$0 = void 0;
 export { QueryIndex$0 as QueryIndex };
 export { CollectionQueryIndexManager };
-export { QueryIndexManager };

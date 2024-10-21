@@ -394,7 +394,3 @@ class Transactions {
 const DocumentId$0 = void 0;
 export { DocumentId$0 as DocumentId };
 export { TransactionResult };
-export { TransactionGetResult };
-export { TransactionQueryResult };
-export { TransactionAttemptContext };
-export { Transactions };

@@ -9,8 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @category Analytics
  */
 var AnalyticsLinkType;
-export { AnalyticsLinkType; };
-export { AnalyticsLinkType; };
+export { AnalyticsLinkType };
 (function (AnalyticsLinkType) {
     /**
      * Indicates that the link is for S3.
@@ -31,8 +30,6 @@ export { AnalyticsLinkType; };
  * @category Analytics
  */
 var AnalyticsEncryptionLevel;
-export { AnalyticsEncryptionLevel; };
-export { AnalyticsEncryptionLevel; };
 (function (AnalyticsEncryptionLevel) {
     /**
      * Indicates that no encryption should be used.
@@ -955,11 +952,4 @@ class AnalyticsIndexManager {
 }
 const AnalyticsLinkType$0 = void 0;
 export { AnalyticsLinkType$0 as AnalyticsLinkType };
-export { AnalyticsDataset };
-export { AnalyticsIndex };
-export { CouchbaseAnalyticsEncryptionSettings };
-export { AnalyticsLink };
-export { CouchbaseRemoteAnalyticsLink };
 export { S3ExternalAnalyticsLink };
-export { AzureExternalAnalyticsLink };
-export { AnalyticsIndexManager };

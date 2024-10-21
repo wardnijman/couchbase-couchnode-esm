@@ -190,12 +190,3 @@ class CounterResult {
 const GetResult$0 = void 0;
 export { GetResult$0 as GetResult };
 export { ScanResult };
-export { ExistsResult };
-export { MutationResult };
-export { GetReplicaResult };
-export { LookupInResultEntry };
-export { LookupInResult };
-export { LookupInReplicaResult };
-export { MutateInResultEntry };
-export { MutateInResult };
-export { CounterResult };

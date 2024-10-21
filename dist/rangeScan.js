@@ -79,5 +79,3 @@ class PrefixScan {
 const ScanTerm$0 = void 0;
 export { ScanTerm$0 as ScanTerm };
 export { RangeScan };
-export { SamplingScan };
-export { PrefixScan };

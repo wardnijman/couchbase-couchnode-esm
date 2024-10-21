@@ -6,8 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @category Diagnostics
  */
 var EndpointState;
-export { EndpointState; };
-export { EndpointState; };
+export { EndpointState };
 (function (EndpointState) {
     /**
      * Indicates the endpoint is disconnected.
@@ -30,8 +29,6 @@ export { EndpointState; };
  * Represents the status of an an endpoint in a ping report.
  */
 var PingState;
-export { PingState; };
-export { PingState; };
 (function (PingState) {
     /**
      * Indicates the endpoint was pinged successfully.
@@ -171,7 +168,3 @@ class DiagnosticsResult {
 }
 const EndpointState$0 = void 0;
 export { EndpointState$0 as EndpointState };
-export { PingEndpoint };
-export { PingResult };
-export { DiagnosticsEndpoint };
-export { DiagnosticsResult };

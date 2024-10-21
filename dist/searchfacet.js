@@ -95,5 +95,3 @@ class DateSearchFacet extends SearchFacet {
 const SearchFacet$0 = void 0;
 export { SearchFacet$0 as SearchFacet };
 export { TermSearchFacet };
-export { NumericSearchFacet };
-export { DateSearchFacet };

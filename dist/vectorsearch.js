@@ -7,8 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @category Full Text Search
  */
 var VectorQueryCombination;
-export { VectorQueryCombination; };
-export { VectorQueryCombination; };
+export { VectorQueryCombination };
 (function (VectorQueryCombination) {
     /**
      * Indicates that multiple vector queries should be combined with logical AND.
@@ -136,5 +135,3 @@ class VectorSearch {
 }
 const VectorQueryCombination$0 = void 0;
 export { VectorQueryCombination$0 as VectorQueryCombination };
-export { VectorQuery };
-export { VectorSearch };

@@ -300,3 +300,4 @@ class ScopeEventingFunctionManager {
 }
 const ScopeEventingFunctionManager$0 = void 0;
 export { ScopeEventingFunctionManager$0 as ScopeEventingFunctionManager };
+export {  };
