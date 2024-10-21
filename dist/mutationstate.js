@@ -63,5 +63,6 @@ class MutationState {
     }
 }
 const MutationState$0 = void 0;
+export { MutationState };
 export { MutationState$0 as MutationState };
 export {  };

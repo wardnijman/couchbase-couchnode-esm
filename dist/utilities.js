@@ -200,5 +200,6 @@ function expiryToTimestamp(expiry) {
     return expiry + Math.floor(Date.now() / 1000);
 }
 const PromiseHelper$0 = void 0;
+export { PromiseHelper };
 export { PromiseHelper$0 as PromiseHelper };
 export { CompoundTimeout };

@@ -110,5 +110,6 @@ class SearchExecutor {
     }
 }
 const SearchExecutor$0 = void 0;
+export { SearchExecutor };
 export { SearchExecutor$0 as SearchExecutor };
 export {  };

@@ -1466,5 +1466,6 @@ class Collection {
     }
 }
 const Collection$0 = void 0;
+export { Collection };
 export { Collection$0 as Collection };
 export {  };

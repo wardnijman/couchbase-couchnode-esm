@@ -81,6 +81,7 @@ class ConfigProfiles {
     }
 }
 const WanDevelopmentProfile$0 = void 0;
+export { WanDevelopmentProfile };
 export const knownProfiles = new ConfigProfiles();
 export { WanDevelopmentProfile$0 as WanDevelopmentProfile };
 export { ConfigProfiles };

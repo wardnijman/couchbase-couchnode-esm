@@ -124,5 +124,6 @@ class QueryExecutor {
     }
 }
 const QueryExecutor$0 = void 0;
+export { QueryExecutor };
 export { QueryExecutor$0 as QueryExecutor };
 export {  };

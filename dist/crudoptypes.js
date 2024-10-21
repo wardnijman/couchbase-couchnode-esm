@@ -188,5 +188,6 @@ class CounterResult {
     }
 }
 const GetResult$0 = void 0;
+export { GetResult };
 export { GetResult$0 as GetResult };
 export { ScanResult };

@@ -5,20 +5,45 @@ directory="./dist"
 
 # Search all .js files
 find "$directory" -name "*.js" | while read file; do
-    # Use awk to detect and remove duplicate export statements
+    # Use awk to process file content and remove duplicate exports
     awk '
-    {
-        if ($0 ~ /export { [A-Za-z]+ };/) {
-            varname = $3; # Capture the variable name
-            # Check if the variable has already been exported
-            if (seen[varname] == 1) {
-                next; # Skip the duplicate export statement
-            } else {
-                seen[varname] = 1; # Mark the variable as exported
-            }
+    BEGIN { 
+        # Initialize empty array to track variables that have been exported
+        exported = 0 
+    }
+    
+    # Detect variable declaration (var <VariableName>;)
+    /var [A-Za-z]+;/ {
+        varname = $2; # Capture the variable name
+        print $0; # Print the variable declaration
+        next;
+    }
+
+    # Detect and process correct exports (export { <VariableName> };)
+    /export { [A-Za-z]+ };/ {
+        varname = $3; # Capture the exported variable
+        if (seen[varname] == 0) {
+            seen[varname] = 1; # Mark the variable as exported
+            print $0; # Keep the first occurrence
         }
-        print $0; # Print the line
+        next; # Skip any further duplicates
+    }
+
+    # Handle faulty exports (export { <VariableName>; };)
+    /export { [A-Za-z]+;/ {
+        varname = $3;
+        if (seen[varname] == 0) {
+            seen[varname] = 1; # Mark the variable as exported
+            gsub(";", "", $0); # Remove the incorrect semicolon inside braces
+            print $0 ";"; # Correct the format to export { varname };
+        }
+        next; # Skip duplicates
+    }
+
+    # Print all other lines
+    {
+        print $0;
     }' "$file" > temp_file && mv temp_file "$file"
 done
 
-echo "Duplicate exports removed."
+echo "Duplicate export statements removed and faulty exports corrected."

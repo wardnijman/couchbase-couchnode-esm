@@ -108,5 +108,6 @@ class StreamableScanPromise extends StreamablePromise {
     }
 }
 const StreamablePromise$0 = void 0;
+export { StreamablePromise };
 export { StreamablePromise$0 as StreamablePromise };
 export { StreamableRowPromise };

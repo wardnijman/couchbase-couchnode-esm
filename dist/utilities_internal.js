@@ -16,5 +16,6 @@ function generateClientString() {
     return `couchnode/${couchnodeVer} (node/${nodeVer}; v8/${v8Ver}; ssl/${sslVer})`;
 }
 const generateClientString$0 = void 0;
+export { generateClientString };
 export { generateClientString$0 as generateClientString };
 export {  };

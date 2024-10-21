@@ -392,5 +392,6 @@ class Transactions {
     }
 }
 const DocumentId$0 = void 0;
+export { DocumentId };
 export { DocumentId$0 as DocumentId };
 export { TransactionResult };

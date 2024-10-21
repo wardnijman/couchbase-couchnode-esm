@@ -62,5 +62,6 @@ class BinaryCollection {
     }
 }
 const BinaryCollection$0 = void 0;
+export { BinaryCollection };
 export { BinaryCollection$0 as BinaryCollection };
 export {  };

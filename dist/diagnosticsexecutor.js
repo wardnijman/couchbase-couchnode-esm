@@ -104,5 +104,6 @@ class PingExecutor {
     }
 }
 const DiagnoticsExecutor$0 = void 0;
+export { DiagnoticsExecutor };
 export { DiagnoticsExecutor$0 as DiagnoticsExecutor };
 export { PingExecutor };

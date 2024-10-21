@@ -1278,7 +1278,9 @@ function eventingFunctionStatusFromCpp(status) {
     throw new errs.InvalidArgumentError(new Error('Unrecognized EventingFunctionStatus'));
 }
 const durabilityToCpp$0 = void 0;
+export { durabilityToCpp };
 const eventingFunctionStatusFromCpp$0 = void 0;
+export { eventingFunctionStatusFromCpp };
 export { durabilityToCpp$0 as durabilityToCpp };
 export { eventingFunctionStatusFromCpp$0 as eventingFunctionStatusFromCpp };
 export { durabilityFromCpp };

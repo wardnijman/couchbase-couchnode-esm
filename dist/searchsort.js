@@ -125,5 +125,6 @@ class GeoDistanceSearchSort extends SearchSort {
     }
 }
 const SearchSort$0 = void 0;
+export { SearchSort };
 export { SearchSort$0 as SearchSort };
 export { ScoreSearchSort };

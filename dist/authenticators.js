@@ -49,5 +49,6 @@ class CertificateAuthenticator {
     }
 }
 const PasswordAuthenticator$0 = void 0;
+export { PasswordAuthenticator };
 export { PasswordAuthenticator$0 as PasswordAuthenticator };
 export { CertificateAuthenticator };

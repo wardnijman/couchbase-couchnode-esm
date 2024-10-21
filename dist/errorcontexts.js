@@ -119,5 +119,6 @@ class HttpErrorContext extends ErrorContext {
     }
 }
 const ErrorContext$0 = void 0;
+export { ErrorContext };
 export { ErrorContext$0 as ErrorContext };
 export { KeyValueErrorContext };

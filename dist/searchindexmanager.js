@@ -438,5 +438,6 @@ class SearchIndexManager {
     }
 }
 const SearchIndex$0 = void 0;
+export { SearchIndex };
 export { SearchIndex$0 as SearchIndex };
 export { SearchIndexManager };

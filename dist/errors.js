@@ -915,7 +915,9 @@ class TransactionCommitAmbiguousError extends CouchbaseError {
     }
 }
 const CouchbaseError$0 = void 0;
+export { CouchbaseError };
 const NumberTooBigError$0 = void 0;
+export { NumberTooBigError };
 export { CouchbaseError$0 as CouchbaseError };
 export { NumberTooBigError$0 as NumberTooBigError };
 export { ConnectionClosedError };

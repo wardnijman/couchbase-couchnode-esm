@@ -133,4 +133,5 @@ var ViewErrorMode;
     ViewErrorMode["Stop"] = "stop";
 })(ViewErrorMode || (exports.ViewErrorMode = ViewErrorMode = {}));
 const ViewResult$0 = void 0;
+export { ViewResult };
 export { ViewResult$0 as ViewResult };

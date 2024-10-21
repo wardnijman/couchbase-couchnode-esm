@@ -98,5 +98,6 @@ class ViewExecutor {
     }
 }
 const ViewExecutor$0 = void 0;
+export { ViewExecutor };
 export { ViewExecutor$0 as ViewExecutor };
 export {  };

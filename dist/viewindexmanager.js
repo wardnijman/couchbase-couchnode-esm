@@ -403,5 +403,6 @@ class ViewIndexManager {
     }
 }
 const DesignDocumentView$0 = void 0;
+export { DesignDocumentView };
 export { DesignDocumentView$0 as DesignDocumentView };
 export { DesignDocument };

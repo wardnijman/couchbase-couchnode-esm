@@ -632,5 +632,6 @@ class UserManager {
     }
 }
 const Origin$0 = void 0;
+export { Origin };
 export { Origin$0 as Origin };
 export { Role };

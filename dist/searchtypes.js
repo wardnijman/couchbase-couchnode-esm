@@ -136,4 +136,5 @@ class SearchRequest {
     }
 }
 const SearchMetaData$0 = void 0;
+export { SearchMetaData };
 export { SearchMetaData$0 as SearchMetaData };

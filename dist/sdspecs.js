@@ -408,5 +408,6 @@ class MutateInSpec {
     }
 }
 const LookupInMacro$0 = void 0;
+export { LookupInMacro };
 export { LookupInMacro$0 as LookupInMacro };
 export { MutateInMacro };

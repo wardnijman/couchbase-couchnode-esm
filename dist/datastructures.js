@@ -508,5 +508,6 @@ class CouchbaseSet {
     }
 }
 const CouchbaseList$0 = void 0;
+export { CouchbaseList };
 export { CouchbaseList$0 as CouchbaseList };
 export { CouchbaseMap };
